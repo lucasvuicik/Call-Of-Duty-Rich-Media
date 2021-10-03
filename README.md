@@ -7,7 +7,7 @@ A ideia do _Rich Media Advertising_ é ser uma forma de anúncio a qual obtenha 
 Em formato de Wallpaper Skin, este _rich media_ foi produzido para a empresa holandesa Just Premium.
 
 ## Funcionalidades
-Na produção do projeto, foi utilizado HTML e CSS Flexbox para posicionar os elementos já tendo em vista uma visão para as animações e deixá-los responsivos.
+Na produção do projeto, foi utilizado HTML e CSS Flexbox para posicionar os elementos já tendo em vista uma ideia para as animações e deixá-los responsivos.
 <br><br>
 Para funcionalidades, efeitos e animações foi utilizado JavaScript puro (VanillaJS) com as bibliotecas GSAP Greenshock e Particles.js.
 <br><br>
