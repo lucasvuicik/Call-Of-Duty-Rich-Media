@@ -1,0 +1,254 @@
+div {
+    -webkit-transition: all 0.0s;
+    -moz-transition: all 0.0s;
+    -o-transition: all 0.0s;
+    transition: all 0.0s;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-size: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.pos-a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pos-r {
+    position: relative;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.min-h {
+    min-height: 1px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-center-around {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-center-start {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-center-end {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex-d-column {
+    flex-direction: column;
+}
+
+.p-events-none {
+    pointer-events: none;
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
+/******************* BG *******************/
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+/******************* TOP *******************/
+
+#top-txt-wrap {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    max-width: 420px;
+    width: 42%;
+    transform: translate(-50%, -50%);
+}
+
+#top-txt-1 {
+    transform: translateY(-110%)
+}
+
+#top-txt-2 {
+    transform: translateY(110%)
+}
+
+/******************* SIDES *******************/
+
+.sides-logo-wrap {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    max-width: 95%;
+    width: 50.2vh;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.sides-logo-anima {
+    transform: scale(4);
+    opacity: 0;
+}
+
+.sides-call-of-duty {
+    margin: 0 auto;
+    max-width: 395px;
+    width: 85%;
+}
+
+.sides-mw {
+    margin-top: 1vh;
+}
+
+.sides-particles-js {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 150%;
+    height: 450px;
+    transform: translateX(-50%);
+}
+
+.sides-cta-wrap {
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    max-width: 90%;
+    width: 27.8vh;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+}
+
+.sides-cta {}
+
+.sides-cta-hover {
+    opacity: 0;
+}
+
+/******************* LEFT *******************/
+
+.left-smokes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#left-hero {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    max-width: 90%;
+    width: 38vh;
+    transform: translate(-50%, 40px) scale(1.2);
+    opacity: 0;
+}
+
+#left-scroll-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 90%;
+    width: 43.3vh;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+/******************* RIGHT ********************/
+
+.right-smokes {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#right-case {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    max-width: 90%;
+    width: 24.6vh;
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 0;
+}
+
+/******************* VIDEO ********************/
+
+#video-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    transform: translate(0px, 0px) !important;
+}
+
+#video-wrapper video {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+}
+
+#body_left #video-container-left {
+    position: absolute;
+    visibility: hidden;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0px) !important;
+    z-index: 1;
+    width: 100%;
+}
+
+#body_left #video-container-left video {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+}
+
+#expand-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10%;
+    pointer-events: auto;
+    z-index: 99;
+}

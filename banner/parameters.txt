@@ -1,0 +1,9 @@
+width=1920
+height=1200
+landingpage=https://www.callofduty.com/br/pt/modernwarfare?utm_campaign=alwayson2019&utm_medium=search&utm_source=google&utm_term=call-of-duty-Exact
+buyer="Activision"
+advertiser="Call of Duty"
+tier1="Hobbies & Interest"
+tier2=""
+country=United States
+dsp=
