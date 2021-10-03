@@ -27,7 +27,7 @@ Ainda é possível ver um preview do projeto <a href="https://preview.justpremiu
 <br><br>
 Lembre-se de desabilitar a extensão do adblock no seu navegador. Caso utilize o navegador Brave, é necessário desabilitar temporariamente o bloqueador nativo do browser.
 <br><br>
-Caso o link não esteja mais no ar, é possível dar run no projeto seguindo os seguinte passo a passo:
+Caso o link não esteja mais no ar, é possível dar run no projeto seguindo o seguinte passo a passo:
 <ul>
   <li>1 - Abra o projeto no Visual Studio Code</li>
   <li>2 - Instale a extensão "Live Server"</li>
