@@ -29,7 +29,7 @@ Lembre-se de desabilitar a extensão do adblock no seu navegador. Caso utilize o
 <br><br>
 Caso o link não esteja mais no ar, é possível dar run no projeto seguindo o seguinte passo a passo:
 <ul>
-  <li>1 - Abra o projeto no Visual Studio Code</li>
+  <li>1 - Abra o Visual Studio Code</li>
   <li>2 - Instale a extensão "Live Server"</li>
   <li>3 - Arraste o projeto para dentro do VSCode</li>
   <li>4 - Click no botão "Go Live" encontrado no canto inferior direito do VSCode</li>
